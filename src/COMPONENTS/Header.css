@@ -1,0 +1,31 @@
+/* Header.css */
+* {
+  color: rgb(133, 84, 84); /* Set entire text color to red */
+}
+
+/* Adjust Navbar Spacing */
+.header-navbar, 
+.header-navbar * {
+  color: rgb(209, 155, 155) !important; /* Force red color */
+}
+
+
+/* Brand Text Styling */
+.brand-text {
+  margin: 0; /* Eliminate extra margin */
+  font-size: 1.5rem;
+}
+
+/* Nav Link Spacing */
+.nav-links .nav-link {
+  margin: 0 0.5rem; /* Reduce horizontal spacing between links */
+  padding: 0.5rem 0; /* Fine-tune padding inside links */
+  font-size: 1rem;
+}
+
+/* Button Alignment */
+.theme-toggle-button {
+  padding: 0.3rem 0.75rem; /* Adjust button size */
+  display: flex;
+  align-items: center; /* Align the icon perfectly */
+}

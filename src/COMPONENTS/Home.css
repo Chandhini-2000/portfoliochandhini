@@ -1,0 +1,82 @@
+/* Home.css */
+.home-section {
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  h3 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+    
+  }
+  
+  p {
+    text-align: justify;
+   
+    color: #555;
+  }
+  /* From Uiverse.io by gharsh11032000 */ 
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(46, 45, 43);
+  border: 2px solid rgb(49, 44, 32);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(223, 216, 205);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button:hover::before {
+  scale: 3;
+}
+
+.button:hover {
+  color: #6b6666;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(44, 43, 41, 0.4);
+}
+
+.button:active {
+  scale: 1;
+}
+/* From Uiverse.io by ErzenXz */ 
+#btn {
+  width: fit-content;
+  min-width: 100px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2.5px solid #E0E1E4;
+  box-shadow: 0px 0px 20px -20px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease-in-out 0ms;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#btn:hover {
+  background-color: #F2F2F2;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+#btn:active {
+  transform: scale(0.95);
+}

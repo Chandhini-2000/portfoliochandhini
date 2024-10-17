@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(165, 82, 82);
+}
+
+/* Light theme styles */
+body[data-theme='light'] {
+  @apply bg-white text-black;
+}
+
+/* Dark theme styles */
+body[data-theme='dark'] {
+  @apply bg-black text-white;
+}

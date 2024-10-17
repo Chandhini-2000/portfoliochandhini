@@ -1,0 +1,46 @@
+/* Projects.css */
+
+.card-container {
+    position: relative;
+    width: 22rem; /* Match card width */
+    margin: auto;
+  }
+  
+  .project-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure it covers the full card height */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0.25rem;
+  }
+  
+  .project-card:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  /* Additional styles for live link */
+  .live-link {
+    color: #ffffff; /* Change color to white */
+    text-decoration: underline; /* Underline for visibility */
+    margin-top: 10px; /* Space between the paragraph and link */
+  }
+  
